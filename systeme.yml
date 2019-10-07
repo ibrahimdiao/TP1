@@ -1,0 +1,7 @@
+---
+- Name: "Installation du système"
+    hosts: all
+    become: yes
+    user: root
+    roles:
+      - "roles/common"
