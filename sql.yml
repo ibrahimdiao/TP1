@@ -1,0 +1,5 @@
+---
+-   hosts: databases
+    user: root
+    roles: gerlingguy.mysql
+    become: yes
